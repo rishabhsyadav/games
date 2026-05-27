@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  background-color: rgb(37, 44, 57);
+  color: azure
+}
+
+
+h1 {
+  font-size: 5rem;
+  height: 5rem;
+  color: rgb(238, 201, 145);
+  line-height: 5rem;
+  padding-top: 5rem;
+}
+
+#count {
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
+
+}
+
+.button:hover {
+  opacity: 03;
+  cursor: pointer;
+  background-color: rgb(161, 161, 151);
+  color: black
+}
+
+.button {
+  height: 4rem;
+  width: 10rem;
+  font-size: 1rem;
+  background-color: rgb(94, 107, 133);
+  margin-top: 5rem;
+  border-radius: 0.8rem;
+
+}
+
+#decrease , #increase {
+  font-size: 1.5rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
